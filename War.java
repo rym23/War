@@ -9,7 +9,7 @@ public class War
 
 		// PLAYER GETS 26 CARDS, COMPUTER GETS THE OTHER 26
 		player.makeDeck();
-		Deck computer = player.splitDeck();
+		Deck computer = player.makeComputerDeck();
 		int rounds = 1;
 		boolean doubleWar = false;
 
