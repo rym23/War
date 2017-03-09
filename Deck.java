@@ -25,7 +25,7 @@ public class Deck
 	}
 
 	// Splits the deck into two, giving half and returning it
-	public Deck splitDeck()
+	public Deck makeComputerDeck()
 	{
 		Deck computer = new Deck();
 
